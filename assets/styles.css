@@ -1,0 +1,445 @@
+/* ================================================================
+   ROUTEIQ — DARK ENTERPRISE DESIGN SYSTEM
+   ================================================================ */
+
+:root {
+    --rq-background: #080d18;
+    --rq-surface: #101a2b;
+    --rq-surface-raised: #142137;
+    --rq-border: #23324a;
+    --rq-text: #e8eef8;
+    --rq-muted: #9cacc4;
+    --rq-teal: #2dd4bf;
+    --rq-blue: #60a5fa;
+    --rq-amber: #fbbf24;
+    --rq-red: #fb7185;
+}
+
+/* Application canvas */
+.stApp {
+    background:
+        radial-gradient(
+            ellipse at 85% 0%,
+            rgba(30, 64, 95, 0.20),
+            transparent 42%
+        ),
+        #080d18;
+}
+
+.block-container {
+    max-width: 1540px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: -0.025em;
+}
+
+h1 {
+    font-weight: 760 !important;
+}
+
+h2, h3 {
+    font-weight: 680 !important;
+}
+
+p, li {
+    line-height: 1.65;
+}
+
+a {
+    color: #7dd3fc;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: #0b1220;
+    border-right: 1px solid #1b2940;
+}
+
+[data-testid="stSidebar"] .block-container {
+    padding-top: 1rem;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: #213049;
+    margin: 1.25rem 0;
+}
+
+[data-testid="stSidebar"] label {
+    font-size: 0.86rem;
+}
+
+/* Native components */
+[data-testid="stMetric"] {
+    background: #101a2b;
+    border: 1px solid #23324a;
+    border-radius: 14px;
+    padding: 16px 18px;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #9cacc4;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 1.65rem;
+    font-weight: 720;
+}
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #23324a;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+[data-testid="stExpander"] {
+    border: 1px solid #23324a;
+    border-radius: 12px;
+    background: rgba(16, 26, 43, 0.6);
+}
+
+[data-testid="stForm"] {
+    border-color: #23324a;
+    border-radius: 14px;
+}
+
+.stButton button,
+.stDownloadButton button,
+.stFormSubmitButton button {
+    border-radius: 10px;
+    font-weight: 650;
+    min-height: 2.65rem;
+}
+
+.stButton button:focus-visible,
+.stDownloadButton button:focus-visible,
+.stFormSubmitButton button:focus-visible {
+    outline: 2px solid #5eead4;
+    outline-offset: 3px;
+}
+
+[data-baseweb="input"],
+[data-baseweb="select"] > div {
+    border-radius: 9px;
+}
+
+/* Brand */
+.rq-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 4px 0 22px;
+}
+
+.rq-logo {
+    width: 43px;
+    height: 43px;
+    border-radius: 12px;
+    background: linear-gradient(140deg, #0d9488, #2563eb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 850;
+    box-shadow: 0 8px 25px rgba(13, 148, 136, 0.16);
+}
+
+.rq-brand-name {
+    color: #f3f7ff;
+    font-size: 24px;
+    font-weight: 780;
+    letter-spacing: -0.8px;
+    line-height: 1.1;
+}
+
+.rq-brand-subtitle {
+    color: #8195b3;
+    font-size: 10px;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-top: 5px;
+}
+
+/* Header */
+.rq-topline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 23px;
+}
+
+.rq-eyebrow {
+    color: #91a5c3;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.rq-page-title {
+    color: #f3f7ff;
+    font-size: clamp(29px, 3vw, 43px);
+    font-weight: 770;
+    letter-spacing: -1.4px;
+    line-height: 1.18;
+    margin: 0 0 10px;
+}
+
+.rq-page-subtitle {
+    color: #9cacc4;
+    font-size: 15px;
+    max-width: 850px;
+    margin-bottom: 24px;
+}
+
+/* Pills */
+.rq-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    border: 1px solid #2c405b;
+    color: #b6c8df;
+    background: #111d30;
+    white-space: nowrap;
+}
+
+.rq-pill.teal {
+    color: #6ee7d2;
+    border-color: #205c57;
+    background: #0d292b;
+}
+
+.rq-pill.amber {
+    color: #fcd87a;
+    border-color: #665023;
+    background: #2b2414;
+}
+
+.rq-pill.red {
+    color: #fda4af;
+    border-color: #6b3040;
+    background: #301923;
+}
+
+.rq-pills {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Panels */
+.rq-panel {
+    background: linear-gradient(145deg, #122036, #0e1829);
+    border: 1px solid #263b55;
+    border-radius: 18px;
+    padding: 25px;
+    margin: 14px 0 20px;
+}
+
+.rq-panel.recommended {
+    border-color: #256b67;
+    background:
+        radial-gradient(
+            ellipse at top right,
+            rgba(13, 148, 136, 0.14),
+            transparent 60%
+        ),
+        #101d2b;
+}
+
+.rq-panel.warning {
+    border-color: #705027;
+}
+
+.rq-panel-title {
+    color: #f1f6ff;
+    font-size: 25px;
+    font-weight: 740;
+    letter-spacing: -0.6px;
+    margin: 14px 0 7px;
+}
+
+.rq-muted {
+    color: #9cacc4;
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.rq-small {
+    color: #8da0bd;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+/* Route itinerary */
+.rq-itinerary {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.rq-node {
+    background: #15263b;
+    border: 1px solid #2c455e;
+    border-radius: 10px;
+    padding: 11px 15px;
+    color: #cbd9ec;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.rq-node.endpoint {
+    color: #b9fff2;
+    background: #103333;
+    border-color: #28645c;
+}
+
+.rq-arrow {
+    color: #6c84a5;
+    font-size: 19px;
+}
+
+/* Route option cards */
+.rq-route-card {
+    min-height: 240px;
+    padding: 20px;
+    background: #101a2b;
+    border: 1px solid #23324a;
+    border-radius: 15px;
+    margin-bottom: 14px;
+}
+
+.rq-route-card.selected {
+    border-color: #2c8b7e;
+    box-shadow: inset 0 3px 0 #2dd4bf;
+}
+
+.rq-route-title {
+    color: #eef4ff;
+    font-size: 19px;
+    font-weight: 710;
+    margin: 14px 0 4px;
+}
+
+.rq-route-id {
+    color: #8094b2;
+    font-size: 10px;
+    overflow-wrap: anywhere;
+}
+
+.rq-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 10px;
+    margin-top: 20px;
+}
+
+.rq-card-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8498b6;
+    margin-bottom: 5px;
+}
+
+.rq-card-value {
+    font-size: 17px;
+    color: #e7effc;
+    font-weight: 690;
+}
+
+/* Section heading */
+.rq-section {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.rq-section-title {
+    color: #eaf1fc;
+    font-size: 21px;
+    font-weight: 710;
+    letter-spacing: -0.5px;
+}
+
+.rq-section-subtitle {
+    color: #90a4c0;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Landing state */
+.rq-empty {
+    border: 1px solid #263b55;
+    border-radius: 20px;
+    padding: 46px 35px;
+    background:
+        radial-gradient(
+            ellipse at 90% 20%,
+            rgba(37, 99, 235, 0.13),
+            transparent 55%
+        ),
+        #101a2b;
+    margin-top: 20px;
+}
+
+.rq-empty-title {
+    font-size: 32px;
+    font-weight: 750;
+    color: #f1f6ff;
+    letter-spacing: -1px;
+    margin: 18px 0 12px;
+}
+
+.rq-empty-copy {
+    color: #a4b5ce;
+    max-width: 720px;
+    line-height: 1.8;
+}
+
+.rq-footer {
+    color: #7388a6;
+    font-size: 11px;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid #1d2b41;
+    line-height: 1.7;
+}
+
+/* Mobile layout */
+@media (max-width: 760px) {
+    .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1.25rem;
+    }
+
+    .rq-panel,
+    .rq-empty {
+        padding: 20px;
+    }
+
+    .rq-page-title {
+        font-size: 30px;
+    }
+
+    .rq-node {
+        padding: 8px 11px;
+        font-size: 12px;
+    }
+
+    [data-testid="stMetricValue"] {
+        font-size: 1.35rem;
+    }
+}

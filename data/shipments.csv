@@ -1,0 +1,51 @@
+shipment_id,origin,destination,cargo_type,cargo_value,shipment_priority,max_budget,delivery_deadline,min_reliability,scenario
+SHP001,Singapore,Busan,Electronics,168805.88,High,8520.61,32.689,0.88,No feasible budget
+SHP002,Durban,Singapore,Pharmaceuticals,263197.3,Critical,7629.72,27.749,0.94,Standard trade-off
+SHP003,Hong Kong,Hamburg,Textiles,69619.25,Medium,8793.05,37.493,0.0,Standard trade-off
+SHP004,Dubai,Durban,Machinery,160983.59,Low,10158.79,26.319,0.0,Standard trade-off
+SHP005,Mumbai,Antwerp,Perishable Goods,64802.34,Critical,8996.15,23.042,0.88,Standard trade-off
+SHP006,Salalah,Colombo,Electronics,155709.62,High,9771.94,29.868,0.88,Standard trade-off
+SHP007,Singapore,Salalah,Pharmaceuticals,261098.13,Critical,8335.72,29.817,0.94,Standard trade-off
+SHP008,Durban,Singapore,Textiles,55750.93,Medium,8650.67,36.994,0.0,Standard trade-off
+SHP009,Singapore,Hamburg,Machinery,204113.96,Low,15638.07,37.181,0.0,Standard trade-off
+SHP010,Salalah,Busan,Perishable Goods,78119.68,Critical,9763.83,13.755,0.88,Standard trade-off
+SHP011,Singapore,Hamburg,Electronics,191570.41,High,13553.87,26.133,0.88,Standard trade-off
+SHP012,Antwerp,Mumbai,Pharmaceuticals,281458.84,Critical,5735.23,26.286,0.94,No feasible budget
+SHP013,Salalah,Durban,Textiles,70831.99,Medium,17814.3,31.102,0.0,Standard trade-off
+SHP014,Hamburg,Colombo,Machinery,191912.32,Low,8397.92,14.693,0.0,No feasible deadline
+SHP015,Dubai,Antwerp,Perishable Goods,79050.79,Critical,14307.57,17.116,0.88,Standard trade-off
+SHP016,Singapore,Mumbai,Electronics,121626.93,High,8483.39,20.724,0.88,Standard trade-off
+SHP017,Durban,New York,Pharmaceuticals,298443.89,Critical,13856.11,24.493,0.94,Standard trade-off
+SHP018,Port Said,Singapore,Textiles,64934.54,Medium,14423.71,25.216,0.0,Standard trade-off
+SHP019,Hong Kong,Port Said,Machinery,164182.62,Low,16865.07,35.857,0.0,Standard trade-off
+SHP020,Busan,Rotterdam,Perishable Goods,94203.78,Critical,17680.56,24.67,0.88,Standard trade-off
+SHP021,Hong Kong,Rotterdam,Electronics,125066.95,High,13199.53,30.206,0.88,Standard trade-off
+SHP022,Durban,Busan,Pharmaceuticals,216320.13,Critical,17794.09,20.097,0.94,Standard trade-off
+SHP023,Singapore,New York,Textiles,46322.91,Medium,7675.15,36.537,0.0,No feasible budget
+SHP024,Mumbai,Rotterdam,Machinery,209133.26,Low,16035.21,35.382,0.0,Standard trade-off
+SHP025,Salalah,New York,Perishable Goods,102926.21,Critical,17034.32,14.4,0.88,Standard trade-off
+SHP026,Antwerp,Port Said,Electronics,183473.26,High,9720.64,32.144,0.88,Standard trade-off
+SHP027,Rotterdam,Dubai,Pharmaceuticals,223462.64,Critical,8406.37,12.654,0.94,No feasible deadline
+SHP028,Colombo,Shanghai,Textiles,70398.29,Medium,12527.21,31.964,0.0,Standard trade-off
+SHP029,Busan,Salalah,Machinery,138553.99,Low,13868.56,35.718,0.0,Standard trade-off
+SHP030,Hong Kong,Dubai,Perishable Goods,79627.21,Critical,17405.54,12.835,0.88,Standard trade-off
+SHP031,Dubai,Antwerp,Electronics,148525.07,High,7917.09,22.97,0.88,Standard trade-off
+SHP032,Antwerp,Colombo,Pharmaceuticals,280392.08,Critical,12818.02,22.558,0.94,Standard trade-off
+SHP033,Dubai,New York,Textiles,53572.71,Medium,11364.61,28.823,0.0,Standard trade-off
+SHP034,Hamburg,Hong Kong,Machinery,191545.57,Low,8469.12,21.885,0.0,No feasible budget
+SHP035,Rotterdam,Antwerp,Perishable Goods,100365.41,Critical,9928.3,18.837,0.88,Standard trade-off
+SHP036,Salalah,Hong Kong,Electronics,193348.23,High,10146.38,21.173,0.88,Standard trade-off
+SHP037,Shanghai,Port Said,Pharmaceuticals,223845.52,Critical,16349.55,20.843,0.94,Standard trade-off
+SHP038,Dubai,Busan,Textiles,54766.87,Medium,8587.6,22.339,0.0,Standard trade-off
+SHP039,Hamburg,Mumbai,Machinery,219123.29,Low,9923.28,27.971,0.0,Standard trade-off
+SHP040,Rotterdam,Antwerp,Perishable Goods,60955.83,Critical,10343.62,11.677,0.88,No feasible deadline
+SHP041,Salalah,Mumbai,Electronics,113973.53,High,13813.09,27.882,0.88,Standard trade-off
+SHP042,Colombo,Port Said,Pharmaceuticals,279497.73,Critical,7543.22,27.172,0.94,Standard trade-off
+SHP043,Singapore,Colombo,Textiles,60378.74,Medium,16422.52,29.512,0.0,Standard trade-off
+SHP044,Colombo,Antwerp,Machinery,170768.59,Low,8084.67,28.074,0.0,Standard trade-off
+SHP045,Salalah,Singapore,Perishable Goods,93649.29,Critical,5036.4,23.429,0.88,No feasible budget
+SHP046,Salalah,New York,Electronics,126523.23,High,11950.44,33.924,0.88,Standard trade-off
+SHP047,Salalah,Dubai,Pharmaceuticals,278803.91,Critical,10218.82,30.565,0.94,Standard trade-off
+SHP048,Port Said,Hamburg,Textiles,46940.15,Medium,11070.39,26.844,0.0,Standard trade-off
+SHP049,Salalah,Rotterdam,Machinery,191790.43,Low,9565.61,22.148,0.0,Standard trade-off
+SHP050,Hamburg,Shanghai,Perishable Goods,66597.43,Critical,11416.88,22.724,0.88,Standard trade-off
